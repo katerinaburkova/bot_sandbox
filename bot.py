@@ -3,10 +3,6 @@ import random
 #import pickle 
 import pandas as pd
 
-#from pyrogram import enums
-session = requests.Session()
-session.verify = False
-
 #запуск бота
 bot = telebot.TeleBot('5268624306:AAFfFEOaH7Ep8CYi0ZLfNrHH27L5x3xRsng')
 #df_test = pd.DataFrame(columns = ['user_id', 'text'])
