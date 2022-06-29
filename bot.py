@@ -1,10 +1,8 @@
 import telebot
 import random
 #import pickle 
-import requests
 import pandas as pd
-import time
-import tabulate 
+
 #from pyrogram import enums
 session = requests.Session()
 session.verify = False
