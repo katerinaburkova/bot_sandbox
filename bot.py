@@ -19,7 +19,9 @@ def write_down(message):
 		'user_id': message.chat.id, 
 		'text':message.text, }, ignore_index=True)
 	print(df_test)
-	df_test.to_csv('test.csv')
+	with open("b.txt", "w") as f:
+   		f.write("one\n")
+
 
 
 #запуск
